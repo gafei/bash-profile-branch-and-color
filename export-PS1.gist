@@ -1,5 +1,5 @@
 # Set branch name, dirty state, and color
-export PS1="\[\033[36m\]\u@\h\[\033[32m\]\w\[\033[33m\]\$(git_branch)\$(parse_git_dirty)\[\033[00m\]$"
+export PS1="\[\033[36m\]\u@\h\[\033[32m\]\w\[\033[33m\]\$(git_branch)\$(parse_git_dirty)\[\033[00m\]$ "
 
 # Activate colors and dirty state
 GIT_PS1_SHOWCOLORHINTS=true
